@@ -14,13 +14,16 @@ body {
     background-size: cover;
     width: 100%;
     height: 808px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .bannear-content {
     width: 360px;
     height: 700px;
     margin: 0 auto;
-    padding-top: 265px;
+    padding-top: 280px;
     padding-left: 800px
 }
 
@@ -59,6 +62,7 @@ body {
 .fallurs-img {
     margin-top: 131px;
     margin-left: 206px;
+
 }
 
 .failures-content {
@@ -75,37 +79,174 @@ body {
     font-weight: bold;
     margin-bottom: 24px;
 }
+
 .faliures-discription {
     font-weight: 400;
     font-size: 16px;
     color: #444343;
     margin-bottom: 16px;
 }
-.faliures-list{
-    padding-left: 17px;
+
+.lest-Symbols {
+    color: #16D887;
+    margin-right: 10px;
+
 }
-.faliures-list li{
-    list-style:upper-alpha;
+
+.faliures-list li {
+    list-style: none;
     margin-bottom: 8px;
-    
+
 }
+
 /* My Plans section stylse */
-.my-palans{
-    margin-top:214px;
-    
+.my-palans {
+    margin-top: 214px;
+
 }
-.sengel-content{
-    width:312px;
-    height:165px;
-    margin-left:125px;
+
+.sengel-content {
+    width: 312px;
+    height: 165px;
+    margin-left: 125px;
 }
-.my-palan-title{
+
+.my-palan-title {
     text-align: center;
     font-weight: 700;
-font-size: 40px;
-color: #151414;
-margin-bottom: 50px;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
 }
-.my-plans-contenar{
+
+.my-plans-img {
+    width: 92.96px;
+    height: 92.96px;
+    margin-bottom: 16px;
+    margin-left: 25px;
+}
+
+.my-plans-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.my-plans-discreptions {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-top: 16px;
+}
+
+.my-plans-contenar {
     display: flex;
+}
+
+/* Awlays keep sections styles */
+.footer-top {
+    background: linear-gradient(rgba(226, 179, 179, -0.4), rgba(221, 166, 166, 1.6)), url('images/watch.png');
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 124px;
+}
+
+.footer-top-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 459px;
+    height: 94px;
+    padding-top: 59px;
+    margin-left: 64px;
+}
+
+.footer-top-btn {
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #F15B22;
+    margin-top: 24px;
+    margin-left: 64px;
+    font-weight: bold;
+}
+
+/* main footer section style */
+.footer {
+    display: flex;
+    gap: 311px;
+    width: 100%;
+    height: auto;
+    background: #151414;
+    margin-top: 130px;
+    padding-bottom: 130px;
+
+}
+
+.right-content {
+    width: 485px;
+    height: 317px;
+    margin-left: 230px;
+    margin-top: 130px;
+}
+
+.left-content {
+    width: 325px;
+    height: 204px;
+    margin-top: 130px;
+    margin-left: 229px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer-discreption {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.footer-icon {}
+
+.sengel-footer-icon {
+    display: flex;
+    gap: 18px;
+    margin-top: 10px;
+    margin-bottom: 130px;
+}
+
+.left-footer-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+
+.input-email {
+    background: #151414;
+    color: #FFFFFF;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    padding: 20px 60px 20px 19px;
+    margin-bottom: 10px;
+
+}
+
+.footer-button {
+    width: 170.11px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    border:1px solid #fff;
+    border-radius: 5px;
 }
