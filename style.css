@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* header bannear style */
@@ -23,7 +23,7 @@ body {
     width: 360px;
     height: 700px;
     margin: 0 auto;
-    padding-top: 280px;
+    padding-top: 290px;
     padding-left: 800px
 }
 
@@ -106,17 +106,19 @@ body {
 }
 
 .sengel-content {
-    width: 312px;
-    height: 165px;
-    margin-left: 125px;
+    width: 218px;
+    height: 197px;
+    margin:0 auto;
 }
 
 .my-palan-title {
     text-align: center;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 44px;
     color: #151414;
     margin-bottom: 50px;
+    margin-right: 60px;
+    
 }
 
 .my-plans-img {
@@ -145,7 +147,7 @@ body {
 
 /* Awlays keep sections styles */
 .footer-top {
-    background: linear-gradient(rgba(226, 179, 179, -0.4), rgba(221, 166, 166, 1.6)), url('images/watch.png');
+    background: linear-gradient(rgba(226, 179, 179, -0.4), rgba(221, 166, 166, 1.6)), url('./images/watch.png');
     width: 1140px;
     height: 300px;
     margin: 0 auto;
@@ -199,7 +201,7 @@ body {
     width: 325px;
     height: 204px;
     margin-top: 130px;
-    margin-left: 229px;
+    margin-right: 70px;
 }
 
 .footer-title {
@@ -220,8 +222,9 @@ body {
 .sengel-footer-icon {
     display: flex;
     gap: 18px;
-    margin-top: 10px;
+    margin-top: 32px;
     margin-bottom: 130px;
+
 }
 
 .left-footer-title {
@@ -247,6 +250,6 @@ body {
     font-weight: 600;
     font-size: 20px;
     color: #F15B22;
-    border:1px solid #fff;
+    border: 1px solid #fff;
     border-radius: 5px;
 }
